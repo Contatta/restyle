@@ -191,7 +191,7 @@ var restyle = (function (O) {
           d.documentElement,
         node = head.insertBefore(
           d.createElement('style'),
-          head.lastChild
+          null
         );
       node.type = 'text/css';
       // it should have been
@@ -232,4 +232,5 @@ var restyle = (function (O) {
  *  @charset "UTF-8";
  */
 
-}({}));
+}({}))
+;
